@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      input: (a = 55), (b = 20);
+
+      output: (a = 20), (b = 55);
+
+
+      const test = () => {
+        let a = 55;
+        let b = 20;
+
+        let c = a;
+        a = b;
+        b = c;
+
+        console.log("a is" + a);
+        console.log("b is" + b);
+      };
+      test();
+
+    </script>
+  </body>
+</html>
